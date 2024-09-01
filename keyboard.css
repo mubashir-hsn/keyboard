@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+.container{
+   margin-top: 90px;
+   background-color: aliceblue;
+   border-radius: 20px;
+   padding: 30px;
+   box-shadow:-10px -10px 20px rgba(0, 0, 0, 0.2), 10px 20px 30px rgba(0, 0, 0, 0.354);
+}
+input{
+    background-color: pink;
+    color: black;
+}
+.btn-row1{
+    width: 50px;
+    height: 33px;
+    padding: 2px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 1px 0px 1px rgb(251, 251, 251) , 4px 4px 7px rgb(8, 8, 8);
+}
+.esc{
+    width: 71px;
+    height: 33px;
+    padding: 2px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 1px 0px 1px rgb(255, 254, 254) , 4px 4px 7px rgb(16, 16, 16);
+}
+.btn-row2{
+    width: 55px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 0px 2px 0px 2px white, 5px 5px 8px rgb(5, 5, 5);
+}
+.btn-size{
+    font-size: 18px;
+}
+#backspace{
+    width: 122px;
+    letter-spacing: 1px;
+}
+#tab{
+    width: 120px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+#caplock{
+    width: 70px;
+    letter-spacing: 1px;
+}
+#enter{
+    width: 107px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+#shift{
+    width: 90px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+#btn-shift{
+    width: 156px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#space{
+    margin-top: 7px;
+    width: 395px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+input:active{
+    box-shadow: 2px 2px rgb(253, 114, 137) inset; 
+}
